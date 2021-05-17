@@ -1,9 +1,10 @@
 const express = require('express');
 const testRouter = require('./resourses/tests/test.router');
+const userRouter = require('./resourses/users/user.router');
 const cors = require('cors');
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'http://172.17.142.80:3000'],
     optionsSuccessStatus: 200
 }
 
@@ -20,5 +21,6 @@ app.use('/', (req, res, next) => {
 })
 
 app.use('/tests', cors(corsOptions), testRouter);
+app.use('/users', cors(corsOptions), userRouter);
 
 module.exports = app;

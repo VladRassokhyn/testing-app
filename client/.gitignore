@@ -10,6 +10,11 @@
 
 # production
 /build
+.eslintcache
+.gitignore
+.idea
+db.json
+
 
 # misc
 .DS_Store
