@@ -1,12 +1,12 @@
-import './App.module.css';
-import React from "react";
-import {Header} from "./UI/Header/Header";
-import Sidebar from "./UI/Sidebar/Sidebar";
-import s from './App.module.css'
+import {Header} from "../UI/Header/Header";
+import { Sidebar } from "../UI/Sidebar/Sidebar";
+import s from './index.module.css';
 import {Switch} from "react-router-dom";
-import {routes, Routes} from "./BLL/routes";
+import {routes, Routes} from "../BLL/routes";
+import * as React from "react";
+import './index.sass';
 
-function App() {
+export const App = () => {
     return (
         <div className={s.wrapper}>
 
@@ -31,5 +31,3 @@ function App() {
         </div>
     );
 }
-
-export default App;

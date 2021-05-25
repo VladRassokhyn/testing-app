@@ -2,7 +2,12 @@ import React from 'react';
 import s from './Sidebar.module.css';
 import {NavLink} from "react-router-dom";
 
-const Sidebar = ({isOpen, setIsOpen}) => {
+type P = {
+    isOpen?: boolean
+    setIsOpen?: (isOpen: boolean) => void
+}
+
+export const Sidebar: React.FC<P> = ({isOpen, setIsOpen}) => {
 
     const isAdmin = true
 
@@ -27,5 +32,3 @@ const Sidebar = ({isOpen, setIsOpen}) => {
         </div>
     )
 }
-
-export default Sidebar;

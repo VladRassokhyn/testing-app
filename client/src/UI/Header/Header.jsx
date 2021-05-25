@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import s from './Header.module.css';
 import {LoginMenuContainer} from "./LoginMenu/LoginMenuContainer";
 import menu from './../../img/menu.svg'
-import Sidebar from "../Sidebar/Sidebar";
+import { Sidebar } from "../Sidebar/Sidebar";
 
 export const Header = () => {
 
