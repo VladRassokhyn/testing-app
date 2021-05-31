@@ -1,4 +1,4 @@
-const Test = require('./test.model');
+export { Test } from './test.model.js';
 
 const tests = [
     {
@@ -188,4 +188,4 @@ const removeTest = async (id) => {
     tests.splice(index, 1);
 };
 
-module.exports = {getAll, postTest, getTestById, updateTest, removeTest};
+export default {getAll, postTest, getTestById, updateTest, removeTest};

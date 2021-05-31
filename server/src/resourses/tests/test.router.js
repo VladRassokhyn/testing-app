@@ -1,5 +1,7 @@
-const router = require('express').Router();
-const taskService = require('./test.service');
+import express from 'express';
+import taskService from './test.service.js';
+
+const router = express.Router();
 
 router.route('/').get(async (req, res) => {
     const tests = await taskService.getAll();
@@ -25,4 +27,4 @@ router.route('/:testId').delete(async (req, res) => {
     res.json({message: 'Success', code: res.statusCode});
 });
 
-module.exports = router;
+export default router;

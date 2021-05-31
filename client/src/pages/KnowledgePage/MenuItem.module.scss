@@ -1,0 +1,97 @@
+.list_item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  margin-left: 10px;
+  border-left: 1px solid #eeeeee;
+}
+
+.wrapper {
+  width: 95%;
+}
+
+.icon {
+  margin-right: 15px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+  height: 50px;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+
+.title_after_bot {
+  width: 10px;
+  height: 10px;
+  border-bottom: 3px solid #5f6d7b;
+  border-right: 3px solid #5f6d7b;
+  animation: rotate_close 0.3s forwards;
+}
+.title_after_top {
+  width: 10px;
+  height: 10px;
+  border-bottom: 3px solid #5f6d7b;
+  border-right: 3px solid #5f6d7b;
+  animation: rotate_open 0.3s forwards;
+}
+
+.visible {
+  opacity: 1;
+  height: 50px;
+  animation: opening 0.3s forwards;
+}
+
+.invisible {
+  opacity: 0;
+  height: 0;
+  animation: closing 0.3s forwards;
+}
+.first_span{
+  width: 10px;
+  height: 10px;
+  border-bottom: 3px solid #5f6d7b;
+  border-right: 3px solid #5f6d7b;
+  transform: rotate(45deg);
+}
+.first{
+  opacity: 0;
+  height: 0;
+}
+@keyframes opening {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 50px;
+    opacity: 1;
+
+  }
+}
+@keyframes closing {
+  from {
+    height: 50px;
+    opacity: 1;
+
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+@keyframes rotate_open {
+  from {transform: rotate(45deg)}
+  to {transform: rotate(225deg)}
+}
+@keyframes rotate_close {
+  from {transform: rotate(225deg)}
+  to {transform: rotate(45deg)}
+}

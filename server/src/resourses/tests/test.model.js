@@ -1,4 +1,4 @@
-class Test {
+export class Test {
     constructor({
         id = 0,
         questions = [],
@@ -11,5 +11,3 @@ class Test {
         this.questions = questions;
     }
 }
-
-module.exports = Test
