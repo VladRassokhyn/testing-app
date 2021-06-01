@@ -1,19 +1,20 @@
-@media (max-width: 576px){
+@media (max-width: 561px){
     .wrapper {
         position: absolute;
         z-index: 999;
         height: 100vh;
-        left: -100%
+        left: -100%;
     }
 }
 
-@media (min-width: 576px){
+@media (min-width: 560px){
 
 }
 
 .wrapper{
     display:grid;
     width: 100%;
+    min-width: 300px;
     background-color: #fff;
     grid-template-rows: repeat(5, 50px);
     grid-gap: 5px;

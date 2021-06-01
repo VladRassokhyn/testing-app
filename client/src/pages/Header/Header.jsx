@@ -18,7 +18,7 @@ export const Header = () => {
                 <LoginMenuContainer/>
             </div>
 
-            <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}/>
+            {isOpen && <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}/>}
 
         </div>
     )
