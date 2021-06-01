@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/testing-app/static/css/main.08148630.chunk.css",
+    "main.js": "/testing-app/static/js/main.ad354a69.chunk.js",
+    "main.js.map": "/testing-app/static/js/main.ad354a69.chunk.js.map",
+    "runtime-main.js": "/testing-app/static/js/runtime-main.36a267d1.js",
+    "runtime-main.js.map": "/testing-app/static/js/runtime-main.36a267d1.js.map",
+    "static/js/2.497b6558.chunk.js": "/testing-app/static/js/2.497b6558.chunk.js",
+    "static/js/2.497b6558.chunk.js.map": "/testing-app/static/js/2.497b6558.chunk.js.map",
+    "index.html": "/testing-app/index.html",
+    "static/css/main.08148630.chunk.css.map": "/testing-app/static/css/main.08148630.chunk.css.map",
+    "static/js/2.497b6558.chunk.js.LICENSE.txt": "/testing-app/static/js/2.497b6558.chunk.js.LICENSE.txt",
+    "static/media/android.1869cdae.svg": "/testing-app/static/media/android.1869cdae.svg",
+    "static/media/apple.270a0074.svg": "/testing-app/static/media/apple.270a0074.svg",
+    "static/media/back_arrow.fc5d4a23.svg": "/testing-app/static/media/back_arrow.fc5d4a23.svg",
+    "static/media/close-x.7e2a977d.svg": "/testing-app/static/media/close-x.7e2a977d.svg",
+    "static/media/correct.a6214c40.svg": "/testing-app/static/media/correct.a6214c40.svg",
+    "static/media/goldAndroid.b43f2cb8.webp": "/testing-app/static/media/goldAndroid.b43f2cb8.webp",
+    "static/media/goldApple.5484b5fa.webp": "/testing-app/static/media/goldApple.5484b5fa.webp",
+    "static/media/incorrect.c8b5793c.svg": "/testing-app/static/media/incorrect.c8b5793c.svg",
+    "static/media/loader.3d6e8b99.svg": "/testing-app/static/media/loader.3d6e8b99.svg",
+    "static/media/mac.1def1e00.svg": "/testing-app/static/media/mac.1def1e00.svg",
+    "static/media/menu.88f61cbf.svg": "/testing-app/static/media/menu.88f61cbf.svg",
+    "static/media/platinumAndroid.ac3ef16e.png": "/testing-app/static/media/platinumAndroid.ac3ef16e.png",
+    "static/media/platinumApple.58357d75.webp": "/testing-app/static/media/platinumApple.58357d75.webp",
+    "static/media/profileImage.22d7f1c8.png": "/testing-app/static/media/profileImage.22d7f1c8.png",
+    "static/media/silverAndroid.732b2287.webp": "/testing-app/static/media/silverAndroid.732b2287.webp",
+    "static/media/silverApple.9fe23a8b.webp": "/testing-app/static/media/silverApple.9fe23a8b.webp",
+    "static/media/trash.25646333.svg": "/testing-app/static/media/trash.25646333.svg",
+    "static/media/user.a2446033.png": "/testing-app/static/media/user.a2446033.png",
+    "static/media/windows.1edde665.svg": "/testing-app/static/media/windows.1edde665.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36a267d1.js",
+    "static/js/2.497b6558.chunk.js",
+    "static/css/main.08148630.chunk.css",
+    "static/js/main.ad354a69.chunk.js"
+  ]
+}
