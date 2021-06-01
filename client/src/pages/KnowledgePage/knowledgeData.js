@@ -1,4 +1,9 @@
-
+import silverAndroid from './../../img/silverAndroid.webp';
+import goldAndroid from './../../img/goldAndroid.webp';
+import platinumAndroid from './../../img/platinumAndroid.png';
+import silverApple from './../../img/silverApple.webp';
+import goldApple from './../../img/goldApple.webp';
+import platinumApple from './../../img/platinumApple.webp';
 import mac from './../../img/mac.svg';
 import apple from './../../img/apple.svg';
 import windows from './../../img/windows.svg';
@@ -16,7 +21,8 @@ export const services = [
                 image: android,
                 inner: [
                     {
-                        name: 'Silver Card',
+                        photo: silverAndroid,
+                        name: 'Silver Card Android',
                         price: '800',
                         include: [
                             {
@@ -60,17 +66,78 @@ export const services = [
                                     ' "екселевские" и т.д. файы будет открываться автоматически в нужной программе.' +
                                     ' Без них даже обычный "вордовский" документ не откроется.',
                             },
+                            {
+                                name: 'Файловые менеджеры',
+                                description: 'Установка архиватоа и альтернативных файовых менеджеров',
+                            },
+                            {
+                                name: 'Блокировщик рекламы',
+                                description: 'Лицензионный антибанер AdLock 12мес.',
+                            },
+                            {
+                                name: 'IPTV',
+                                description: 'Подписка на SweetTV 3мес',
+                            },
                         ]
                     },
                     {
-                        name: 'Gold Card',
+                        photo: goldAndroid,
+                        name: 'Gold Card Android',
                         price: '1500',
-                        include: []
+                        include: [
+                            {
+                                name: 'Подбор лучших приложений',
+                                description: 'Клиент называет функцию, например "хочу редактирофать фотки" - тех' +
+                                    ' ставит 3-4 топовых фоторедактора.',
+                            },
+                            {
+                                name: 'Електронная коммерция',
+                                description: 'Настройка GooglePay, банкингов и других платежных систем',
+                            },
+                            {
+                                name: 'Оптимизация ОС',
+                                description: 'Настройка энергопотребления, отключение ненужных фоновых процессов,' +
+                                    ' настройка автоочистки кэша, настройка потребления трафика и т.д.',
+                            },
+                            {
+                                name: 'Облачные сервисы',
+                                description: 'Настройка доступа к облаку для загрузки/выгрузки файлов' +
+                                    ' НЕ ВКЛЮЧЕТ В СЕБЯ синхронизацию с тругими устройствами и резервное копирование',
+                            },
+                            {
+                                name: 'Антивирус',
+                                description: 'Лицензионный антивирус Avast Mobile Security 12мес',
+                            },
+                            {
+                                name: 'Megogo IPTV',
+                                description: 'Подписка на Megogo Смартфон 1мес',
+                            },
+                        ]
                     },
                     {
-                        name: 'Platinum Card',
+                        photo: platinumAndroid,
+                        name: 'Platinum Card Android',
                         price: '2000',
-                        include: []
+                        include: [
+                            {
+                                name: 'Настройка медиа-сервисов',
+                                description: 'Настраиваем подписки на сервисы AppleMusic, Spotify, Netflix, YouTube' +
+                                    ' т.д.',
+                            },
+                            {
+                                name: 'Синхронизация всех устройств',
+                                description: 'Данные клиента всегда будут доступны на любом из его устройств',
+                            },
+                            {
+                                name: 'Резервное копирование',
+                                description: 'Автоматические резервные копии данных в облако, для сохранности в' +
+                                    ' случае утери, или поломки телефона',
+                            },
+                            {
+                                name: 'Megogo IPTV',
+                                description: 'Подписка на Megogo Смартфон 3мес',
+                            },
+                        ]
                     },
                 ]
             },
@@ -79,20 +146,22 @@ export const services = [
                 image: apple,
                 inner: [
                     {
-                        name: 'Platinum Card',
-                        price: '2000'
+                        photo: silverApple,
+                        name: 'Silver Card iOS',
+                        price: '800',
+                        include: []
                     },
                     {
-                        name: 'Gold Card',
-                        price: '1500'
+                        photo: goldApple,
+                        name: 'Gold Card iOS',
+                        price: '1500',
+                        include: []
                     },
                     {
-                        name: 'Silver Card',
-                        price: '800'
-                    },
-                    {
-                        name: 'Android Smart Card',
-                        price: '600'
+                        photo: platinumApple,
+                        name: 'Platinum Card iOS',
+                        price: '2000',
+                        include: []
                     },
                 ]
             },
@@ -101,20 +170,22 @@ export const services = [
                 image: mac,
                 inner: [
                     {
-                        name: 'Platinum Card',
-                        price: '2000'
+                        photo: silverAndroid,
+                        name: 'Silver Card MacOS',
+                        price: '800',
+                        include: []
                     },
                     {
-                        name: 'Gold Card',
-                        price: '1500'
+                        photo: silverAndroid,
+                        name: 'Gold Card MacOS',
+                        price: '1500',
+                        include: []
                     },
                     {
-                        name: 'Silver Card',
-                        price: '800'
-                    },
-                    {
-                        name: 'Android Smart Card',
-                        price: '600'
+                        photo: silverAndroid,
+                        name: 'Platinum Card MacOS',
+                        price: '2000',
+                        include: []
                     },
                 ]
             },
@@ -123,20 +194,22 @@ export const services = [
                 image: windows,
                 inner: [
                     {
-                        name: 'Platinum Card',
-                        price: '2000'
+                        photo: silverAndroid,
+                        name: 'Silver Card Windows',
+                        price: '800',
+                        include: []
                     },
                     {
-                        name: 'Gold Card',
-                        price: '1500'
+                        photo: silverAndroid,
+                        name: 'Gold Card Windows',
+                        price: '1500',
+                        include: []
                     },
                     {
-                        name: 'Silver Card',
-                        price: '800'
-                    },
-                    {
-                        name: 'Android Smart Card',
-                        price: '600'
+                        photo: silverAndroid,
+                        name: 'Platinum Card Windows',
+                        price: '2000',
+                        include: []
                     },
                 ]
             }

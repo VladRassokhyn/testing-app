@@ -3,9 +3,13 @@ import {Link, NavLink, Route} from "react-router-dom";
 import s from './YearService.module.scss';
 import back from '../../../img/back_arrow.svg';
 import {services} from '../knowledgeData';
+import {Info} from "./Info";
+import SlideRoutes from "react-slide-routes";
+import {useLocation} from "react-router";
 
 export const YearServices = () => {
 
+    const location = useLocation();
     const base = '/knowledge-base/year-services/';
 
     return <div className={s.wrapper}>
@@ -16,11 +20,14 @@ export const YearServices = () => {
             <NavLink activeClassName={s.active} to={base + 'MacOS'}><h3>MacOS</h3></NavLink>
             <NavLink activeClassName={s.active} to={base + 'Windows'}><h3>Windows</h3></NavLink>
         </div>
+        <SlideRoutes location={location}>
+            {services[0].os.map(
+                (os, i) => <Route
+                    key={i}
+                    path={base + os.name}
+                    render={() => <Info service={os.inner}/>}
+                />
+            )}
+        </SlideRoutes>
     </div>
 }
-
-/*
-<Route path={base + 'Android'} render={()=><Android services={services}/>}/>
-<Route path={base + 'iOS'} render={()=><Android/>}/>
-<Route path={base + 'MacOS'} render={()=><Android/>}/>
-<Route path={base + 'Windows'} render={()=><Android/>}/>*/
