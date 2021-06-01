@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/testing-app/static/css/main.08148630.chunk.css",
+    "main.css": "/testing-app/static/css/main.b4a1540e.chunk.css",
     "main.js": "/testing-app/static/js/main.0c2cd62a.chunk.js",
     "main.js.map": "/testing-app/static/js/main.0c2cd62a.chunk.js.map",
     "runtime-main.js": "/testing-app/static/js/runtime-main.36a267d1.js",
@@ -8,7 +8,7 @@
     "static/js/2.497b6558.chunk.js": "/testing-app/static/js/2.497b6558.chunk.js",
     "static/js/2.497b6558.chunk.js.map": "/testing-app/static/js/2.497b6558.chunk.js.map",
     "index.html": "/testing-app/index.html",
-    "static/css/main.08148630.chunk.css.map": "/testing-app/static/css/main.08148630.chunk.css.map",
+    "static/css/main.b4a1540e.chunk.css.map": "/testing-app/static/css/main.b4a1540e.chunk.css.map",
     "static/js/2.497b6558.chunk.js.LICENSE.txt": "/testing-app/static/js/2.497b6558.chunk.js.LICENSE.txt",
     "static/media/android.1869cdae.svg": "/testing-app/static/media/android.1869cdae.svg",
     "static/media/apple.270a0074.svg": "/testing-app/static/media/apple.270a0074.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.36a267d1.js",
     "static/js/2.497b6558.chunk.js",
-    "static/css/main.08148630.chunk.css",
+    "static/css/main.b4a1540e.chunk.css",
     "static/js/main.0c2cd62a.chunk.js"
   ]
 }
