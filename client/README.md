@@ -1,7 +1,7 @@
 2.0 in development with express/postgre/JWT back and typescript
 
 # Application for testing sales personal
-Application develops as a pet-project, later become usable in retail store, where i work.
+Application develops as a pet-project, later become usable in retail.
 The main task is control salers by knowlege level products and services of shop. Secondary is raitings of results, for additional motivation to learn products.
 
 
